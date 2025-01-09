@@ -1,0 +1,23 @@
+
+Explain why a number data type added to a string data type returns a string.
+- Because it concatenates it into a string because you can't add a number and a non-number.
+
+Name a scenario where using the == operator could cause a bug.
+- (21 == "21"). A string is not a number. A string such as "21" could be converted to a 1 (boolean) when using ==
+  If a string is entered to check for legal drinking age in an app "21" would be rejected as not equal to 21. 
+
+Name the operator(s) that you find confusing and explain why.
+- '| |' because it alwasy picks the number on the left.
+  Apparaently this is because it evauluates from left to right and picks the 1st true value it encounters. 
+
+Explain a situation where you would use the Modulus operator and why.
+- To determine if a number is even or odd. Take the number 5. Is it odd or even?
+  5 % 2 would produce "false" output meaning it is not even.
+
+
+
+
+
+
+
+
